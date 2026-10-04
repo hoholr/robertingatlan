@@ -1,1 +1,25 @@
 html{scroll-behavior: smooth;}
+
+.hero {
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(5, 8, 35, 0.72),
+            rgba(5, 8, 35, 0.92)
+        ),
+        url("assets/hero-bg.jpg");
+
+    background-size: cover;
+    background-position: center center;
+
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+
+    max-width: 850px;
+}
