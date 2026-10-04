@@ -1,5 +1,12 @@
 html{scroll-behavior: smooth;}
 
+h1, .anton {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .hero {
     min-height: 100vh;
 
@@ -22,4 +29,8 @@ html{scroll-behavior: smooth;}
     bottom: 10%;
 
     max-width: 850px;
+}
+
+.animate-reveal {
+    animation: .8s cubic-bezier(.16,1,.3,1) both reveal-up;
 }
