@@ -8,7 +8,7 @@ html{scroll-behavior: smooth;}
             rgba(5, 8, 35, 0.72),
             rgba(5, 8, 35, 0.92)
         ),
-        url("assets/hero-bg.jpg");
+        url("../assets/hero-bg.jpg");
 
     background-size: cover;
     background-position: center center;
