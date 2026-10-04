@@ -1,1 +1,1 @@
-alert("Futok");
+console.log("Hohol Róbert ingatlaközvetítő oldala, minden jog fenntartva! &copy; 2026");
