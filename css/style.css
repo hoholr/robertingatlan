@@ -19,7 +19,6 @@ h1, .anton {
 
     background-size: cover;
     background-position: center center;
-
     position: relative;
 }
 
@@ -28,8 +27,14 @@ h1, .anton {
     left: 5%;
     bottom: 10%;
     max-width: 850px;
+    font-size: 4em;
+    line-height: .8em;
+}
+
+.hero-content h1 {
     font-size: 8em;
     line-height: .8em;
+
 }
 
 .animate-reveal {
