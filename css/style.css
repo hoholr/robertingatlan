@@ -28,12 +28,11 @@ h1, .anton {
     bottom: 10%;
     max-width: 850px;
     font-size: 2em;
-    line-height: .8em;
 }
 
 .hero-content h1 {
     font-size: 3em;
-    *line-height: .8em;
+    line-height: .8em;
 
 }
 
