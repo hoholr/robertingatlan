@@ -11,36 +11,40 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 
 	</head>
 	<body>
 
-		<nav class="navbar navbar-dark bg-faded">
-			<a class="navbar-brand text-light" href="#">Hohol Róbert <span class="text-danger">ingatlanközvetítő</span></a>
-			<ul class="nav navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
-				</li>
-			</ul>
-			<form class="form-inline navbar-form pull-right">
-				<input class="form-control" type="text" placeholder="Search">
-				<button class="btn btn-success-outline" type="submit">Search</button>
-			</form>
+		<div class="bg-dark-50 w-100 position-sticky">
+		<nav class="navbar navbar-expand-lg navbar-dark container-wide mx-auto">
+		  <a class="navbar-brand anton" href="#">Hohol Róbert <span class="text-danger">ingatlanszakértő</span></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto jetbrains text-uppercase">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Rólam</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Szolgáltatások</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Kapcsolat</a>
+		      </li>
+		    </ul>
+		  </div>
 		</nav>
+		</div>
 		
 		<section class="hero">
+			<div class="container container-wide">
+			<div class="row">
+			<div class="col-12">
 		    <div class="hero-content animate-reveal text-light">
 		        <h1 class="hero-title">
 		            Az érték<br>
@@ -52,29 +56,35 @@
 		            többéves tapasztalattal a lakáspiacon.
 		        </p>
 		    </div>
+			</div>
+			</div>
+			</div>
 		</section>
 
-		<section class="about">
-		    <div class="container">
+		<section class="about py-5 bg-dark-blue text-light">
+		    <div class="container container-wide py-5">
 		        <div class="row align-items-center">
 
-		            <div class="col-lg-6">
-		                <div class="about-image">
-		                    <img src="assets/robert.jpg" alt="Hohol Róbert">
+		            <div class="col-lg-6 pr-4">
+		                <div class="about-image p-3">
+		                    <img src="assets/robert.jpg" class="img-fluid" alt="Hohol Róbert">
 		                </div>
 		            </div>
 
-		            <div class="col-lg-6">
+		            <div class="col-lg-6 pl-4">
 		                <div class="about-content">
 		                    <span class="section-label">RÓLAM</span>
 
-		                    <h2>
+		                    <h2 class="text-light large anton mb-3">
 		                        Több, mint
-		                        <span>közvetítés.</span>
+		                        <span class="text-danger">ingatlanos...</span>
 		                    </h2>
 
-		                    <p>...</p>
-		                    <p>...</p>
+		                    <p class="jetbrains">Hohol Róbert vagyok, ingatlanos és hiteltanácsadó, többéves tapasztalattal a lakáspiacon. Munkám során mindig azt tartom szem előtt, hogy egy ingatlan sokkal több puszta négy falnál: egy új élethelyzet, változás, lehetőség minden ügyfelem számára.</p>
+
+							<p class="jetbrains">Célom, hogy az ingatlanügyletek folyamata ne legyen bonyolult vagy stresszes. Legyen szó eladásról, vásárlásról, vagy éppen a megfelelő finanszírozás megtalálásáról, abban segítek, hogy mindez egyszerűen, érthetően és biztonságosan történjen. Ismerem a piaci trendeket, az aktuális szabályokat, valamint a hitelintézetek elvárásait, így minden helyzetre igyekszem testreszabott megoldásokat kínálni.</p>
+
+							<p class="jetbrains">Fontosnak tartom a személyes figyelmet: minden ügyfelem egyedi, éppen ezért minden folyamatot az Ön igényeihez igazítok. Számíthat rám abban, hogy lépésről lépésre végigvezetem a teljes folyamaton – a kezdeti konzultációtól a sikeres szerződéskötésig.</p>
 		                </div>
 		            </div>
 

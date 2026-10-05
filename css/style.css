@@ -6,28 +6,38 @@ h1, .anton {
   font-style: normal;
 }
 
+.jetbrains {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.container-wide {
+    max-width: 1320px;
+}
 
 .hero {
     min-height: 100vh;
 
     background-image:
         linear-gradient(
-            rgba(5, 8, 35, 0.72),
-            rgba(5, 8, 35, 0.92)
+            0deg,
+            rgba(4, 12, 32, 1) 0%,
+            rgba(4, 12, 32, 0.6) 21%
         ),
         url("../assets/hero-bg.jpg");
 
     background-size: cover;
     background-position: center center;
-    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+
+    margin-top: -4em;
 }
 
 .hero-content {
-    position: absolute;
-    left: 5%;
-    bottom: 10%;
     max-width: 850px;
     font-size: 2em;
+    margin-bottom: 10%;
 }
 
 .hero-content h1 {
@@ -48,6 +58,55 @@ h1, .anton {
 
 .hero-text {
     animation-delay: 0.65s;
+}
+
+.bg-dark-50 {
+	background: rgba(0, 0, 0, .8);
+}
+
+div.position-sticky {
+	top: 0;
+	z-index: 1;
+	}
+
+/* Kezdeti állapot */
+.about-image,
+.about-content {
+    opacity: 0;
+    transition:
+        opacity 0.9s ease,
+        transform 1s cubic-bezier(.22, 1, .36, 1);
+}
+
+.about-image {
+    transform: translateX(-60px);
+    border:1px solid #444;
+}
+
+.large {
+    font-size: 3em;
+}
+
+.bg-dark-blue {
+	background: #040c20;
+}
+
+.about-content {
+    transform: translateX(60px);
+}
+
+
+/* Aktivált állapot */
+.about.animate-in .about-image,
+.about.animate-in .about-content {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* A szöveg kicsit később érkezik */
+.about.animate-in .about-content {
+    transition-delay: 0.2s;
 }
 
 @keyframes slideInLeft {
