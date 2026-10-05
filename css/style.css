@@ -36,7 +36,7 @@ h1, .anton {
 
 .hero-content {
     max-width: 850px;
-    font-size: 2em;
+    font-size: 1.8em;
     margin-bottom: 10%;
 }
 
@@ -46,7 +46,7 @@ h1, .anton {
 
 }
 
-.animate-reveal {
+.*animate-reveal {
     opacity: 0;
     transform: translateX(-60px);
     animation: slideInLeft 1s cubic-bezier(.22, 1, .36, 1) forwards;
